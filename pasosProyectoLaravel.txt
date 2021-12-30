@@ -1,0 +1,3 @@
+composer global require laravel/installer
+laravel new CerrajeriaPepeLorente_Back
+php artisan migrate--> Para ejecutar este, modificar database/factories/UserFactory y database/migrations/create_users_table
