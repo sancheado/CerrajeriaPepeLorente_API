@@ -4,14 +4,15 @@
 ->Facturacion lo mismo.
 
 CLIENTES
-*cliente_id
+*Cliente_id
 *Nombre
 *Apellidos
 *Dirección
-*email
+*Email
+*Password
 *numero
 *Empresa
-*otros                     
+*Otros                     
 
 TRABAJOS
 *trabajo_id
@@ -20,6 +21,7 @@ TRABAJOS
 *presupuesto_id
 *trabajador_id
 *cliente_id
+*Otros
 
 TRABAJADOR
 *trabajador_id
@@ -30,6 +32,7 @@ TRABAJADOR
 *numero
 *precio
 *horas
+*Otros
 
 FACTURACION
 *facturacion_id
@@ -37,7 +40,7 @@ FACTURACION
 *Descripción
 *presupuesto_id
 *cliente_id
-*
+*Otros
 
 PRESUPUESTO
 *presupuesto_id
@@ -45,7 +48,7 @@ PRESUPUESTO
 *Nombre
 *cliente_id
 *producto_id
-*
+*Otros
 
 ALBARAN
 *albaran_id
@@ -53,6 +56,7 @@ ALBARAN
 *Descripción
 *presupuesto_id
 *cliente_id
+*Otros
 *
 
 PRODUCTOS
@@ -62,4 +66,5 @@ PRODUCTOS
 *Precio
 *IVA
 *Cantidad
+*Otros
 *

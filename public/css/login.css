@@ -3,9 +3,9 @@
 body{background-color: #82878c;}
 
 /* SECCION PRINCIPAL */
-.SLogin{max-width: 1024px;width: 100%;border: 1px solid #000;border-radius: 3px;margin:3.5% auto;background-color: #fff;}
-.SLogin .row .col{min-height: 500px;}
-.SLogin .row .col img{width: 550px;margin:25px auto;}
+.SLogin{max-width: 900px;width: 100%;border: 1px solid #000;border-radius: 3px;margin:3.5% auto;background-color: #fff;}
+.SLogin .row .col{min-height: 400px;}
+.SLogin .row .col img{width: 250px;margin:25px auto;}
 
 .Sprincipal .row .col .row{display: flex;align-items: center;justify-content: center;}
 /* .Sprincipal .row .col:first-child{max-width: 300px;} 

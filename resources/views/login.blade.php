@@ -27,28 +27,6 @@
     <body class="antialiased">        
         <section class="container SLogin">
             <div class="row">
-                <!-- <div class="col" style="display:none;>
-                    <div class="row">
-                        <div class="col-sm-12">
-                            1
-                        </div>
-                        <div class="col-sm-12">
-                            2
-                        </div>
-                        <div class="col-sm-12">
-                            3
-                        </div>
-                        <div class="col-sm-12">
-                            4
-                        </div>
-                        <div class="col-sm-12">
-                            5
-                        </div>
-                        <div class="col-sm-12">
-                            6
-                        </div>
-                    </div>
-                </div> -->
                 <div class="col pantallaDinamica">
                         <div class="container">
                             <div class="row">
