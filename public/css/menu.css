@@ -1,0 +1,29 @@
+/* ENCABEZADO */
+*,body{margin: 0;padding: 0;box-sizing: border-box;}
+body{background-color: #82878c;}
+
+/* Estilo para el menú de la izquierda */
+#myMenu {background-color: #292c8e;color:#fff;height: 100vh;min-width: 20%;padding: 0;position: fixed;left: 0;top: 0;z-index: 2;border: .1px solid #000;}
+#myMenu img{max-width: 100%;width: 100%;height: 12.5vh;}
+
+#myMenu .btnMenu{display: flex;flex-direction: column;align-items: flex-start;justify-content: center;-ms-flex-align: center;}
+#myMenu .btnMenu a{border:.5px solid #fff;height: 12.5vh;margin-top: auto;margin-bottom: auto;width: 100%;text-align: center;line-height: 12.5vh;vertical-align: middle;color:#fff;text-decoration: none;font-size: 1.5rem;}
+
+/* Estilo para los botones del menu */
+#myMenu .btnCliente{background-color: #FF5733;}
+#myMenu .btnTrabajo{background-color: #AEB511;}
+#myMenu .btnTrabajador{background-color: #EC7063;}
+#myMenu .btnFacturacion{background-color: #1E8449;}
+#myMenu .btnPresupuesto{background-color: #2ECC71 ;}
+#myMenu .btnAlbaran{background-color: #21618C;}
+#myMenu .btnProductos{background-color: #5DADE2;}
+
+#myMenu .btnCliente:hover,#myMenu .btnTrabajo:hover,
+#myMenu .btnTrabajador:hover,#myMenu .btnFacturacion:hover,
+#myMenu .btnPresupuesto:hover,#myMenu .btnAlbaran:hover,
+#myMenu .btnProductos:hover{opacity: 0.8;}
+
+.miSeccion{margin-left: 20%;width: 80%!important;border: .1px solid #000;height: 100vh;}
+.txtMenu{width: 95%;height: auto;margin:auto;background-color: #fff;border-radius: 5px;margin-top:5%;padding: 25px;}
+.miCol{width: 14.28%;}
+iframe{width: 100%!important;height: 45vh;margin:10px auto!important;}
