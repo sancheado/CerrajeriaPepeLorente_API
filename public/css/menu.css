@@ -18,12 +18,13 @@ body{background-color: #82878c;}
 #myMenu .btnAlbaran{background-color: #21618C;}
 #myMenu .btnProductos{background-color: #5DADE2;}
 
+/* cuando estemos encima de los botones */
 #myMenu .btnCliente:hover,#myMenu .btnTrabajo:hover,
 #myMenu .btnTrabajador:hover,#myMenu .btnFacturacion:hover,
 #myMenu .btnPresupuesto:hover,#myMenu .btnAlbaran:hover,
 #myMenu .btnProductos:hover{opacity: 0.8;}
 
 .miSeccion{margin-left: 20%;width: 80%!important;border: .1px solid #000;height: 100vh;}
-.txtMenu{width: 95%;height: auto;margin:auto;background-color: #fff;border-radius: 5px;margin-top:5%;padding: 25px;}
+.txtMenu{width: 95%;height: auto;margin:auto;background-color: #fff;border-radius: 5px;margin-top:2.5%;padding: 25px;}
 .miCol{width: 14.28%;}
 iframe{width: 100%!important;height: 45vh;margin:10px auto!important;}
