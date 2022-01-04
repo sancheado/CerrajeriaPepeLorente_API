@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('login');
+    return view('identificacion');
 });
 
 // Route::get('/login', function () {
@@ -50,3 +50,10 @@ Route::get('/presupuesto', function () {
 Route::get('/albaran', function () {
     return view('albaran');
 });
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
+    return view('dashboard');
+})->name('dashboard');
