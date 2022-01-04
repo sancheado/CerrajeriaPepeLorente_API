@@ -48,7 +48,7 @@
         </div>
         <div class="miSeccion">
             <div class="jumbotron txtMenu">
-                <h1 class="display-4">Bienvenido!</h1>
+                <h1 class="display-4">Bienvenido <strong></strong> !</h1>
                 <p class="lead">Esta es la aplicación web para la gestión de la Cerrajeria <strong>Pepe Lorente</strong>. Navege por los distintos botones del menu para ver las secciones.
                 </p>
                 <hr class="my-4">

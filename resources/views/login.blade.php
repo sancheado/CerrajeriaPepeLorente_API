@@ -35,7 +35,7 @@
                         </div>
                         <div class="col d-flex align-items-center ml-3">
                         <div class="card-body p-4 p-lg-5 text-black">
-                            <form>
+                            <form action="menu" method="get">
                                 <div class="form-outline mb-4">
                                     <label class="form-label" for="form2Example17"><h5>Dirección Email</h5> </label>
                                     <input type="email" id="INP_Email" class="form-control form-control-lg" placeholder="Esto_es_un_ejemplo@deEmail.com"/>
@@ -45,7 +45,7 @@
                                     <input type="password" id="INP_Password" class="form-control form-control-lg" placeholder="********" />
                                 </div>
                                 <div class="pt-1 mb-4 divButton">
-                                    <button class="btn btn-dark btn-lg btn-block" type="button">Identificarse</button>
+                                    <button class="btn btn-dark btn-lg btn-block" type="submit">Identificarse</button>
                                 </div>
                             </form>
                             </div>

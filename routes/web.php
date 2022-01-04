@@ -14,18 +14,26 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
-Route::get('/login', function () {
     return view('login');
 });
+
+// Route::get('/login', function () {
+//     return view('login');
+// });
 
 Route::get('/menu', function () {
     return view('menu');
 });
+// Route::get('/menu/usuario/{id}', [UserController::class, 'show']);
+Route::post('/menu', function () {
+    return view('menu');
+});
+
+
+
 
 Route::get('/cliente', function () {
-    return view('cliente');
+    return view('cliente.index');
 });
 Route::get('/trabajo', function () {
     return view('trabajo');
